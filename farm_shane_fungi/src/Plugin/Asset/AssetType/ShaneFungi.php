@@ -23,7 +23,7 @@ class ShaneFungi extends FarmAssetType {
       'fungi_type' => [
         'type' => 'entity_reference',
         'label' => $this->t('Fungi species/variety'),
-        'description' => "Enter this fungi asset's species/variety.",
+        'description' => "Enter this fungi asset's species/variety.Derp.Derp.",
         'target_type' => 'taxonomy_term',
         'target_bundle' => 'shane_fungi_type',
         'auto_create' => TRUE,
