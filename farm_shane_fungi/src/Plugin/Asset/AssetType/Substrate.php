@@ -12,7 +12,7 @@ use Drupal\farm_entity\Plugin\Asset\AssetType\FarmAssetType;
  *   label = @Translation("Substrate"),
  * )
  */
-class ShaneSubstrate extends FarmAssetType {
+class Substrate extends FarmAssetType {
 
   /**
    * {@inheritdoc}
