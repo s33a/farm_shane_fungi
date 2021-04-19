@@ -8,8 +8,8 @@ use Drupal\farm_entity\Plugin\Asset\AssetType\FarmAssetType;
  * Provides the fungi asset type.
  *
  * @AssetType(
- *   id = "fungi",
- *   label = @Translation("Fungi"),
+ *   id = "shane_fungi",
+ *   label = @Translation("Shane Fungi"),
  * )
  */
 class ShaneFungi extends FarmAssetType {
