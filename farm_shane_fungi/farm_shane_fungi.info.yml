@@ -5,3 +5,4 @@ package: farmOS Custom
 core_version_requirement: ^9
 dependencies:
   - farm_entity
+  - farm_fungi:farm_fungi
