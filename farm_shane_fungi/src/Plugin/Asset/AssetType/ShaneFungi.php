@@ -8,11 +8,11 @@ use Drupal\farm_entity\Plugin\Asset\AssetType\FarmAssetType;
  * Provides the fungi asset type.
  *
  * @AssetType(
- *   id = "fungi",
- *   label = @Translation("Fungi"),
+ *   id = "substrate",
+ *   label = @Translation("Substrate"),
  * )
  */
-class ShaneFungi extends FarmAssetType {
+class ShaneSubstrate extends FarmAssetType {
 
   /**
    * {@inheritdoc}
@@ -20,12 +20,12 @@ class ShaneFungi extends FarmAssetType {
   public function buildFieldDefinitions() {
     $fields = parent::buildFieldDefinitions();
     $field_info = [
-      'fungi_type' => [
+      'substrate_type' => [
         'type' => 'entity_reference',
-        'label' => $this->t('Fungi species/variety'),
-        'description' => "Enter this fungi asset's species/variety.Derp.Derp.",
+        'label' => $this->t('Substrate Type'),
+        'description' => "Enter this substrate asset's name.",
         'target_type' => 'taxonomy_term',
-        'target_bundle' => 'shane_fungi_type',
+        'target_bundle' => 'substrate_type',
         'auto_create' => TRUE,
         'required' => TRUE,
         'weight' => [
