@@ -6,7 +6,7 @@ use Drupal\Core\Controller\ControllerBase;
 /**
  * Provides route responses for the Example module.
  */
-class ExampleController extends ControllerBase {
+class ShaneFungiController extends ControllerBase {
 
   /**
    * Returns a simple page.
