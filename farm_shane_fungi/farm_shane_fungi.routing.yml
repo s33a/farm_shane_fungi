@@ -1,0 +1,7 @@
+farm_shane_fungi.overview_page:
+  path: '/shanefungi/overviewpage'
+  defaults:
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::overviewPage'
+    _title: 'Testing Shane Fungi Overview Page.'
+  requirements:
+    _permission: 'access content'
