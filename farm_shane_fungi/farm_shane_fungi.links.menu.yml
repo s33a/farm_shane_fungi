@@ -1,6 +1,6 @@
-farm_shane_fungi.admin:
+farm_shane_fungi.overview:
   title: 'Shane Fungi module overview'
   description: 'Derp Derp Derp'
   parent: system.admin_config_development
-  route_name: farm_shane_fungi.content
+  route_name: farm_shane_fungi.overview_page
   weight: 100
