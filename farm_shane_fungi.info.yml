@@ -1,0 +1,7 @@
+name: Shane Fungi module
+description: Custom module for mushroom farming.
+type: module
+package: farmOS Custom
+core_version_requirement: ^9
+dependencies:
+  - farm_entity
