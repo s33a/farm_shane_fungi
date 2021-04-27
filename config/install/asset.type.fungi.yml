@@ -1,7 +1,11 @@
-name: Fungi asset
-description: Adds a Fungi asset type.
-type: module
-package: farmOS Assets
-core_version_requirement: ^9
+langcode: en
+status: true
 dependencies:
-  - farm:farm_entity
+  enforced:
+    module:
+      - farm_shane_fungi
+id: shane_fungi
+label: Shane Fungi
+description: ''
+workflow: asset_default
+new_revision: true
