@@ -1,4 +1,4 @@
-farm_shane_fungi.overview:
+farm_shane_fungi.dashboard:
   title: 'Shane Fungi Module Dashboard'
   route_name: farm_shane_fungi.dashboard_page
   description: 'Derp Derp Derp'
