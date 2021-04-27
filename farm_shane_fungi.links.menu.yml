@@ -3,4 +3,4 @@ farm_shane_fungi.dashboard:
   route_name: farm_shane_fungi.dashboard_page
   description: 'Derp Derp Derp'
   parent: farm.base
-  weight: 5
+  weight: -1
