@@ -1,6 +1,6 @@
-farm_shane_fungi.overview:
-  title: 'Shane Fungi Module Overview'
-  route_name: farm_shane_fungi.overview_page
+farm_shane_fungi.dashboard:
+  title: 'Shane Fungi Module Dashboard'
+  route_name: farm_shane_fungi.dashboard_page
   description: 'Derp Derp Derp'
   parent: farm.base
   weight: 5
