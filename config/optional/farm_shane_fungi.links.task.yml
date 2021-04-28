@@ -1,0 +1,12 @@
+# farm_shane_fungi.links.task.yml
+
+farm_shane_fungi.purchasing: # The first plugin ID
+  route_name: farm_shane_fungi.dashboard.purchasing
+  title: 'Purchasing'
+  base_route: farm_shane_fungi.dashboard
+
+farm_shane_fungi.lab: # The second plugin ID
+  route_name: farm_shane_fungi.dashboard.lab
+  title: 'Lab'
+  base_route: farm_shane_fungi.dashboard
+  weight: 100

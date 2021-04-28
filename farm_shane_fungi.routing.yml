@@ -1,4 +1,4 @@
-farm_shane_fungi.dashboard_page:
+farm_shane_fungi.dashboard:
   path: '/shanefungi/dashboard'
   defaults:
     _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::dashboardPage'
