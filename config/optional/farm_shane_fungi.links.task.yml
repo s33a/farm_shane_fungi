@@ -1,12 +1,18 @@
 # farm_shane_fungi.links.task.yml
 
-farm_shane_fungi.purchasing: # The first plugin ID
-  route_name: farm_shane_fungi.dashboard.purchasing
-  title: 'Purchasing'
+farm_shane_fungi.dashboard: # The first plugin ID
+  route_name: farm_shane_fungi.dashboard
+  title: 'Dashboard'
   base_route: farm_shane_fungi.dashboard
 
-farm_shane_fungi.lab: # The second plugin ID
-  route_name: farm_shane_fungi.dashboard.lab
+farm_shane_fungi.purchasing: # The second plugin ID
+  route_name: farm_shane_fungi.purchasing
+  title: 'Purchasing'
+  base_route: farm_shane_fungi.dashboard
+  weight: 10
+
+farm_shane_fungi.lab: # The third plugin ID
+  route_name: farm_shane_fungi.lab
   title: 'Lab'
   base_route: farm_shane_fungi.dashboard
-  weight: 100
+  weight: 10
