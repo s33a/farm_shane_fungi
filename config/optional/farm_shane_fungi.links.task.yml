@@ -15,4 +15,4 @@ farm_shane_fungi.lab: # The third plugin ID
   route_name: farm_shane_fungi.lab
   title: 'Lab'
   base_route: farm_shane_fungi.dashboard
-  weight: 10
+  weight: 20

@@ -9,7 +9,7 @@ farm_shane_fungi.dashboard:
 farm_shane_fungi.purchasing:
   path: '/shanefungi/dashboard/purchasing'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::dashboardPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::purchasingPage'
     _title: 'Shane Fungi Purchasing'
   requirements:
     _permission: 'access content'
@@ -17,7 +17,7 @@ farm_shane_fungi.purchasing:
 farm_shane_fungi.lab:
   path: '/shanefungi/dashboard/lab'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::dashboardPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::labPage'
     _title: 'Shane Fungi Lab'
   requirements:
     _permission: 'access content'
