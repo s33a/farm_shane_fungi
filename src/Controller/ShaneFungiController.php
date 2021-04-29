@@ -16,7 +16,7 @@ class ShaneFungiController extends ControllerBase {
    */
   public function dashboardPage() {
     return [
-      '#markup' => 'Hello, Dashboard',
+      '#markup' => 'Use the tabs to complete tasks at each stage of the cultivation process.',
     ];
   }
 
