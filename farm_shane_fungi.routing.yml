@@ -14,6 +14,22 @@ farm_shane_fungi.purchasing:
   requirements:
     _permission: 'access content'
 
+farm_shane_fungi.purchasing.assets:
+  path: '/shanefungi/dashboard/purchasing/assets'
+  defaults:
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::purchasingAssetsPage'
+    _title: 'Shane Fungi Purchasing Assets'
+  requirements:
+    _permission: 'access content'
+
+farm_shane_fungi.purchasing.equipment:
+  path: '/shanefungi/dashboard/purchasing/equipment'
+  defaults:
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::purchasingEquipmentPage'
+    _title: 'Shane Fungi Purchasing Equipment'
+  requirements:
+    _permission: 'access content'
+
 farm_shane_fungi.lab:
   path: '/shanefungi/dashboard/lab'
   defaults:

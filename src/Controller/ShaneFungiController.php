@@ -38,6 +38,30 @@ class ShaneFungiController extends ControllerBase {
    * @return array
    *   A simple renderable array.
    */
+  public function purchasingAssetsPage() {
+    return [
+      '#markup' => 'Hello, Purchasing Assets',
+    ];
+  }
+
+  /**
+   * Returns a simple page.
+   *
+   * @return array
+   *   A simple renderable array.
+   */
+  public function purchasingEquipmentPage() {
+    return [
+      '#markup' => 'Hello, Purchasing Equipment',
+    ];
+  }
+
+  /**
+   * Returns a simple page.
+   *
+   * @return array
+   *   A simple renderable array.
+   */
   public function labPage() {
     return [
       '#markup' => 'Hello, Lab',
