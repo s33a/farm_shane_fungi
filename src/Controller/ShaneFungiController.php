@@ -16,7 +16,31 @@ class ShaneFungiController extends ControllerBase {
    */
   public function dashboardPage() {
     return [
-      '#markup' => 'Hello, world',
+      '#markup' => 'Hello, Dashboard',
+    ];
+  }
+
+  /**
+   * Returns a simple page.
+   *
+   * @return array
+   *   A simple renderable array.
+   */
+  public function purchasingPage() {
+    return [
+      '#markup' => 'Hello, Purchasing',
+    ];
+  }
+
+  /**
+   * Returns a simple page.
+   *
+   * @return array
+   *   A simple renderable array.
+   */
+  public function labPage() {
+    return [
+      '#markup' => 'Hello, Lab',
     ];
   }
 
