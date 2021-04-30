@@ -68,4 +68,64 @@ class ShaneFungiController extends ControllerBase {
     ];
   }
 
+/**
+   * Returns a simple page.
+   *
+   * @return array
+   *   A simple renderable array.
+   */
+  public function spawnPage() {
+    return [
+      '#markup' => 'Hello, Spawn',
+    ];
+  }
+
+/**
+   * Returns a simple page.
+   *
+   * @return array
+   *   A simple renderable array.
+   */
+  public function fruitingPage() {
+    return [
+      '#markup' => 'Hello, Fruiting',
+    ];
+  }
+
+/**
+   * Returns a simple page.
+   *
+   * @return array
+   *   A simple renderable array.
+   */
+  public function harvestingPage() {
+    return [
+      '#markup' => 'Hello, Harvesting',
+    ];
+  }
+
+/**
+   * Returns a simple page.
+   *
+   * @return array
+   *   A simple renderable array.
+   */
+  public function processingPage() {
+    return [
+      '#markup' => 'Hello, Processing & Packaging',
+    ];
+  }
+
+/**
+   * Returns a simple page.
+   *
+   * @return array
+   *   A simple renderable array.
+   */
+  public function salesPage() {
+    return [
+      '#markup' => 'Hello, Sales',
+    ];
+  }
+
 }

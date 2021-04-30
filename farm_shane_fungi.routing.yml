@@ -37,3 +37,43 @@ farm_shane_fungi.lab:
     _title: 'Shane Fungi Lab'
   requirements:
     _permission: 'access content'
+
+farm_shane_fungi.spawn:
+  path: '/shanefungi/dashboard/spawn'
+  defaults:
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::spawnPage'
+    _title: 'Shane Fungi Spawn'
+  requirements:
+    _permission: 'access content'
+
+farm_shane_fungi.fruiting:
+  path: '/shanefungi/dashboard/fruiting'
+  defaults:
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::fruitingPage'
+    _title: 'Shane Fungi Fruiting'
+  requirements:
+    _permission: 'access content'
+
+farm_shane_fungi.harvesting:
+  path: '/shanefungi/dashboard/harvesting'
+  defaults:
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::harvestingPage'
+    _title: 'Shane Fungi Harvesting'
+  requirements:
+    _permission: 'access content'
+
+farm_shane_fungi.processing:
+  path: '/shanefungi/dashboard/processing'
+  defaults:
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::processingPage'
+    _title: 'Shane Fungi Processing & Packaging'
+  requirements:
+    _permission: 'access content'
+
+farm_shane_fungi.sales:
+  path: '/shanefungi/dashboard/sales'
+  defaults:
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::salesPage'
+    _title: 'Shane Fungi Sales'
+  requirements:
+    _permission: 'access content'
