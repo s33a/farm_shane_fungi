@@ -14,11 +14,11 @@ farm_shane_fungi.purchasing:
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.purchasing.assets:
-  path: '/shanefungi/dashboard/purchasing/assets'
+farm_shane_fungi.purchasing.genetics:
+  path: '/shanefungi/dashboard/purchasing/genetics'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::purchasingAssetsPage'
-    _title: 'Shane Fungi Purchasing Assets'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::purchasingGeneticsPage'
+    _title: 'Shane Fungi Purchasing Genetics'
   requirements:
     _permission: 'access content'
 

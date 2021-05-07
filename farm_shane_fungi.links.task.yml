@@ -12,8 +12,8 @@ farm_shane_fungi.purchasing: # The second plugin ID
   weight: 1
 
 farm_shane_fungi.purchasing.assets: # The first sub-tab plugin ID
-  route_name: farm_shane_fungi.purchasing.assets
-  title: "Purchasing Assets"
+  route_name: farm_shane_fungi.purchasing.genetics
+  title: "Purchasing Genetics"
   parent_id: farm_shane_fungi.purchasing
   weight: 1
 

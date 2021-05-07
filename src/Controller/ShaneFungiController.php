@@ -38,9 +38,9 @@ class ShaneFungiController extends ControllerBase {
    * @return array
    *   A simple renderable array.
    */
-  public function purchasingAssetsPage() {
+  public function purchasingGeneticsPage() {
     return [
-      '#markup' => 'Hello, Purchasing Assets',
+      '#markup' => 'Hello, Purchasing Genetics',
     ];
   }
 
