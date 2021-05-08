@@ -1,0 +1,22 @@
+# field.field.node.shane_fungi_genetics.common_name.yml
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.storage.node.common_name
+        - node.type.shane_fungi_genetics
+    module:
+        - text
+id: node.shane_fungi_genetics.common_name
+field_name: common_name
+entity_type: node
+bundle: shane_fungi_genetics
+label: Common Name
+description: 'Common name for the fungi genetics.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+    display_summary: true
+field_type: text_with_summary
