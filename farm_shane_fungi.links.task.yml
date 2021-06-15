@@ -1,0 +1,60 @@
+# farm_shane_fungi.links.task.yml
+
+farm_shane_fungi.dashboard: # The first plugin ID
+  route_name: farm_shane_fungi.dashboard
+  title: 'Dashboard'
+  base_route: farm_shane_fungi.dashboard
+
+farm_shane_fungi.purchasing: # The second plugin ID
+  route_name: farm_shane_fungi.purchasing
+  title: 'Purchasing'
+  base_route: farm_shane_fungi.dashboard
+  weight: 1
+
+farm_shane_fungi.purchasing.assets: # The first sub-tab plugin ID
+  route_name: farm_shane_fungi.purchasing.genetics
+  title: "Purchasing Genetics"
+  parent_id: farm_shane_fungi.purchasing
+  weight: 1
+
+farm_shane_fungi.purchasing.equipment: # The second sub-tab plugin ID
+  route_name: farm_shane_fungi.purchasing.equipment
+  title: "Purchasing Equipment"
+  parent_id: farm_shane_fungi.purchasing
+  weight: 1
+
+farm_shane_fungi.lab: # The third plugin ID
+  route_name: farm_shane_fungi.lab
+  title: 'Lab'
+  base_route: farm_shane_fungi.dashboard
+  weight: 2
+
+farm_shane_fungi.spawn: # The fourth plugin ID
+  route_name: farm_shane_fungi.spawn
+  title: 'Spawn'
+  base_route: farm_shane_fungi.dashboard
+  weight: 3
+
+farm_shane_fungi.fruiting: # The fifth plugin ID
+  route_name: farm_shane_fungi.fruiting
+  title: 'Fruiting'
+  base_route: farm_shane_fungi.dashboard
+  weight: 4
+
+farm_shane_fungi.harvesting: # The sixth plugin ID
+  route_name: farm_shane_fungi.harvesting
+  title: 'Harvesting'
+  base_route: farm_shane_fungi.dashboard
+  weight: 5
+
+farm_shane_fungi.processing: # The seventh plugin ID
+  route_name: farm_shane_fungi.processing
+  title: 'Processing & Packaging'
+  base_route: farm_shane_fungi.dashboard
+  weight: 6
+
+farm_shane_fungi.sales: # The eighth plugin ID
+  route_name: farm_shane_fungi.sales
+  title: 'Sales'
+  base_route: farm_shane_fungi.dashboard
+  weight: 7

@@ -6,5 +6,5 @@ dependencies:
       - farm_shane_fungi
 name: Fungi types
 vid: fungi_type
-description: 'A list of fungi strains.'
+description: 'A list of fungi genetics.'
 weight: 0
