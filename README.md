@@ -1,4 +1,4 @@
-# farm_shane_fungi
+# farm_fungi
 Custom module for mushroom farming.
 
 I created an overview page where all things Fungi can live and interact with the rest of farmOS.
