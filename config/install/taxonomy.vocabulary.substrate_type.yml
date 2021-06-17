@@ -3,7 +3,7 @@ status: true
 dependencies:
   enforced:
     module:
-      - farm_shane_fungi
+      - farm_fungi
 name: Substrate types
 vid: substrate_type
 description: 'A list of substrate types.'

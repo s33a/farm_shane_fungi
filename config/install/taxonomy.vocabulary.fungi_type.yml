@@ -3,7 +3,7 @@ status: true
 dependencies:
   enforced:
     module:
-      - farm_shane_fungi
+      - farm_fungi
 name: Fungi types
 vid: fungi_type
 description: 'A list of fungi genetics.'

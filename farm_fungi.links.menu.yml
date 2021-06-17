@@ -1,6 +1,6 @@
 farm_shane_fungi.dashboard:
-  title: 'Shane Fungi Module Dashboard'
-  route_name: farm_shane_fungi.dashboard
+  title: 'Fungi Module Dashboard'
+  route_name: farm_fungi.dashboard
   description: 'Manage all Fungi assets, materials, equipment, and products.'
   parent: farm.base
   weight: -1

@@ -1,79 +1,79 @@
-farm_shane_fungi.dashboard:
+farm_fungi.dashboard:
   path: '/shanefungi/dashboard'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::dashboardPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::dashboardPage'
     _title: 'Shane Fungi Dashboard'
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.purchasing:
+farm_fungi.purchasing:
   path: '/shanefungi/dashboard/purchasing'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::purchasingPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::purchasingPage'
     _title: 'Shane Fungi Purchasing'
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.purchasing.genetics:
+farm_fungi.purchasing.genetics:
   path: '/shanefungi/dashboard/purchasing/genetics'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::purchasingGeneticsPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::purchasingGeneticsPage'
     _title: 'Shane Fungi Purchasing Genetics'
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.purchasing.equipment:
+farm_fungi.purchasing.equipment:
   path: '/shanefungi/dashboard/purchasing/equipment'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::purchasingEquipmentPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::purchasingEquipmentPage'
     _title: 'Shane Fungi Purchasing Equipment'
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.lab:
+farm_fungi.lab:
   path: '/shanefungi/dashboard/lab'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::labPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::labPage'
     _title: 'Shane Fungi Lab'
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.spawn:
+farm_fungi.spawn:
   path: '/shanefungi/dashboard/spawn'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::spawnPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::spawnPage'
     _title: 'Shane Fungi Spawn'
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.fruiting:
+farm_fungi.fruiting:
   path: '/shanefungi/dashboard/fruiting'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::fruitingPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::fruitingPage'
     _title: 'Shane Fungi Fruiting'
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.harvesting:
+farm_fungi.harvesting:
   path: '/shanefungi/dashboard/harvesting'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::harvestingPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::harvestingPage'
     _title: 'Shane Fungi Harvesting'
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.processing:
+farm_fungi.processing:
   path: '/shanefungi/dashboard/processing'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::processingPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::processingPage'
     _title: 'Shane Fungi Processing & Packaging'
   requirements:
     _permission: 'access content'
 
-farm_shane_fungi.sales:
+farm_fungi.sales:
   path: '/shanefungi/dashboard/sales'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::salesPage'
+    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::salesPage'
     _title: 'Shane Fungi Sales'
   requirements:
     _permission: 'access content'
