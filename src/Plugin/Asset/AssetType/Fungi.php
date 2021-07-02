@@ -1,4 +1,4 @@
-< ?php
+<?php
 
 namespace Drupal\farm_fungi\Plugin\Asset\AssetType;
 

@@ -1,79 +1,79 @@
 farm_fungi.dashboard:
-  path: '/shanefungi/dashboard'
+  path: '/fungi/dashboard'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::dashboardPage'
-    _title: 'Shane Fungi Dashboard'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::dashboardPage'
+    _title: ' Fungi Dashboard'
   requirements:
     _permission: 'access content'
 
 farm_fungi.purchasing:
-  path: '/shanefungi/dashboard/purchasing'
+  path: '/fungi/dashboard/purchasing'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::purchasingPage'
-    _title: 'Shane Fungi Purchasing'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::purchasingPage'
+    _title: ' Fungi Purchasing'
   requirements:
     _permission: 'access content'
 
 farm_fungi.purchasing.genetics:
-  path: '/shanefungi/dashboard/purchasing/genetics'
+  path: '/fungi/dashboard/purchasing/genetics'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::purchasingGeneticsPage'
-    _title: 'Shane Fungi Purchasing Genetics'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::purchasingGeneticsPage'
+    _title: ' Fungi Purchasing Genetics'
   requirements:
     _permission: 'access content'
 
 farm_fungi.purchasing.equipment:
-  path: '/shanefungi/dashboard/purchasing/equipment'
+  path: '/fungi/dashboard/purchasing/equipment'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::purchasingEquipmentPage'
-    _title: 'Shane Fungi Purchasing Equipment'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::purchasingEquipmentPage'
+    _title: ' Fungi Purchasing Equipment'
   requirements:
     _permission: 'access content'
 
 farm_fungi.lab:
-  path: '/shanefungi/dashboard/lab'
+  path: '/fungi/dashboard/lab'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::labPage'
-    _title: 'Shane Fungi Lab'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::labPage'
+    _title: ' Fungi Lab'
   requirements:
     _permission: 'access content'
 
 farm_fungi.spawn:
-  path: '/shanefungi/dashboard/spawn'
+  path: '/fungi/dashboard/spawn'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::spawnPage'
-    _title: 'Shane Fungi Spawn'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::spawnPage'
+    _title: ' Fungi Spawn'
   requirements:
     _permission: 'access content'
 
 farm_fungi.fruiting:
-  path: '/shanefungi/dashboard/fruiting'
+  path: '/fungi/dashboard/fruiting'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::fruitingPage'
-    _title: 'Shane Fungi Fruiting'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::fruitingPage'
+    _title: ' Fungi Fruiting'
   requirements:
     _permission: 'access content'
 
 farm_fungi.harvesting:
-  path: '/shanefungi/dashboard/harvesting'
+  path: '/fungi/dashboard/harvesting'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::harvestingPage'
-    _title: 'Shane Fungi Harvesting'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::harvestingPage'
+    _title: ' Fungi Harvesting'
   requirements:
     _permission: 'access content'
 
 farm_fungi.processing:
-  path: '/shanefungi/dashboard/processing'
+  path: '/fungi/dashboard/processing'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::processingPage'
-    _title: 'Shane Fungi Processing & Packaging'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::processingPage'
+    _title: ' Fungi Processing & Packaging'
   requirements:
     _permission: 'access content'
 
 farm_fungi.sales:
-  path: '/shanefungi/dashboard/sales'
+  path: '/fungi/dashboard/sales'
   defaults:
-    _controller: '\Drupal\farm_fungi\Controller\ShaneFungiController::salesPage'
-    _title: 'Shane Fungi Sales'
+    _controller: '\Drupal\farm_fungi\Controller\FungiController::salesPage'
+    _title: ' Fungi Sales'
   requirements:
     _permission: 'access content'
