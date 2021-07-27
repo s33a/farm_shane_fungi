@@ -4,7 +4,7 @@ dependencies:
   enforced:
     module:
       - farm_fungi
-name: Fungi types
-vid: fungi_type
+name: Shane Fungi types
+vid: shane_fungi_type
 description: 'A list of fungi genetics.'
 weight: 0

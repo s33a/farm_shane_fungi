@@ -3,7 +3,7 @@ status: true
 dependencies:
   enforced:
     module:
-      - farm_fungi
+      - farm_shane_fungi
 id: fungi
 label: Fungi
 description: ''
