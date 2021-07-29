@@ -1,7 +1,7 @@
 farm_shane_fungi.dashboard:
   path: '/fungi/dashboard'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::dashboardPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::dashboardPage'
     _title: ' Fungi Dashboard'
   requirements:
     _permission: 'access content'
@@ -9,7 +9,7 @@ farm_shane_fungi.dashboard:
 farm_shane_fungi.purchasing:
   path: '/fungi/dashboard/purchasing'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::purchasingPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\FungiPurchasingController::purchasingPage'
     _title: ' Fungi Purchasing'
   requirements:
     _permission: 'access content'
@@ -17,7 +17,7 @@ farm_shane_fungi.purchasing:
 farm_shane_fungi.purchasing.genetics:
   path: '/fungi/dashboard/purchasing/genetics'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::purchasingGeneticsPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\FungiPurchasingController::purchasingGeneticsPage'
     _title: ' Fungi Purchasing Genetics'
   requirements:
     _permission: 'access content'
@@ -25,7 +25,7 @@ farm_shane_fungi.purchasing.genetics:
 farm_shane_fungi.purchasing.equipment:
   path: '/fungi/dashboard/purchasing/equipment'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::purchasingEquipmentPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\FungiPurchasingController::purchasingEquipmentPage'
     _title: ' Fungi Purchasing Equipment'
   requirements:
     _permission: 'access content'
@@ -33,7 +33,7 @@ farm_shane_fungi.purchasing.equipment:
 farm_shane_fungi.lab:
   path: '/fungi/dashboard/lab'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::labPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::labPage'
     _title: ' Fungi Lab'
   requirements:
     _permission: 'access content'
@@ -41,7 +41,7 @@ farm_shane_fungi.lab:
 farm_shane_fungi.spawn:
   path: '/fungi/dashboard/spawn'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::spawnPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::spawnPage'
     _title: ' Fungi Spawn'
   requirements:
     _permission: 'access content'
@@ -49,7 +49,7 @@ farm_shane_fungi.spawn:
 farm_shane_fungi.fruiting:
   path: '/fungi/dashboard/fruiting'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::fruitingPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::fruitingPage'
     _title: ' Fungi Fruiting'
   requirements:
     _permission: 'access content'
@@ -57,7 +57,7 @@ farm_shane_fungi.fruiting:
 farm_shane_fungi.harvesting:
   path: '/fungi/dashboard/harvesting'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::harvestingPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::harvestingPage'
     _title: ' Fungi Harvesting'
   requirements:
     _permission: 'access content'
@@ -65,7 +65,7 @@ farm_shane_fungi.harvesting:
 farm_shane_fungi.processing:
   path: '/fungi/dashboard/processing'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::processingPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::processingPage'
     _title: ' Fungi Processing & Packaging'
   requirements:
     _permission: 'access content'
@@ -73,7 +73,7 @@ farm_shane_fungi.processing:
 farm_shane_fungi.sales:
   path: '/fungi/dashboard/sales'
   defaults:
-    _controller: '\Drupal\farm_shane_fungi\Controller\FungiController::salesPage'
+    _controller: '\Drupal\farm_shane_fungi\Controller\ShaneFungiController::salesPage'
     _title: ' Fungi Sales'
   requirements:
     _permission: 'access content'
