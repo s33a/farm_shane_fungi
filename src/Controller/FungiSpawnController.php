@@ -9,7 +9,7 @@ use Drupal\Core\Controller\ControllerBase;
  */
 class FungiSpawnController extends ControllerBase {
 
-  public function labPage(): array {
+  public function spawnPage(): array {
     return [
       '#markup' => 'Hello, Spawn',
     ];

@@ -9,7 +9,7 @@ use Drupal\Core\Controller\ControllerBase;
  */
 class FungiHarvestingController extends ControllerBase {
 
-  public function labPage(): array {
+  public function harvestingPage(): array {
     return [
       '#markup' => 'Hello, Harvesting',
     ];

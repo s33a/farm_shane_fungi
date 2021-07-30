@@ -9,7 +9,7 @@ use Drupal\Core\Controller\ControllerBase;
  */
 class FungiSalesController extends ControllerBase {
 
-  public function labPage(): array {
+  public function salesPage(): array {
     return [
       '#markup' => 'Hello, Sales',
     ];

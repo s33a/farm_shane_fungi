@@ -9,7 +9,7 @@ use Drupal\Core\Controller\ControllerBase;
  */
 class FungiProcessingController extends ControllerBase {
 
-  public function labPage(): array {
+  public function processingPage(): array {
     return [
       '#markup' => 'Hello, Processing',
     ];
