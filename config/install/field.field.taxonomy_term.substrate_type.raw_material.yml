@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.raw_material
+    - taxonomy.vocabulary.substrate_type
+  enforced:
+    module:
+      - farm_shane_fungi
+id: taxonomy_term.substrate_type.raw_material
+field_name: raw_material
+entity_type: taxonomy_term
+bundle: substrate_type
+label: 'Raw material'
+description: 'What substrate is this a member of?'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      raw_material: raw_material
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

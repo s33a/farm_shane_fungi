@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - farm_shane_fungi
+  module:
+    - taxonomy
+id: taxonomy_term.supplement
+field_name: supplement
+entity_type: taxonomy_term
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core # Should this reference a different module? farm_shane_fungi, custom, contrib?
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

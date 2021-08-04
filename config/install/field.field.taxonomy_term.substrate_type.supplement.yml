@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.supplement
+    - taxonomy.vocabulary.substrate_type
+  enforced:
+    module:
+      - farm_shane_fungi
+id: taxonomy_term.substrate_type.supplement
+field_name: supplement
+entity_type: taxonomy_term
+bundle: substrate_type
+label: 'Supplement'
+description: 'What substrate is this a member of?'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      supplement: supplement
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
