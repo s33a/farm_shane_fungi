@@ -4,6 +4,7 @@ dependencies:
   enforced:
     module:
       - farm_fungi
+      - farm_shane_fungi
   module:
     - taxonomy
 id: taxonomy_term.genus

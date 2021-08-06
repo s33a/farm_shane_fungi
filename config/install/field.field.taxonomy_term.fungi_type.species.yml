@@ -7,6 +7,7 @@ dependencies:
   enforced:
     module:
       - farm_fungi
+      - farm_shane_fungi
   module:
     - entity_reference_validators
 third_party_settings:

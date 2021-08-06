@@ -1,6 +1,10 @@
 langcode: en
 status: true
 dependencies:
+  enforced:
+    module:
+      - farm_fungi
+      - farm_shane_fungi
   module:
     - file
     - image

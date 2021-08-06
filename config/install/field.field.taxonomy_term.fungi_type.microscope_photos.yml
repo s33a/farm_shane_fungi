@@ -4,6 +4,10 @@ dependencies:
   config:
     - field.storage.taxonomy_term.microscope_photos
     - taxonomy.vocabulary.fungi_type
+  enforced:
+    module:
+      - farm_fungi
+      - farm_shane_fungi
   module:
     - image
 id: taxonomy_term.fungi_type.microscope_photos
