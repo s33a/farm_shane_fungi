@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.fungi_type.genus
+    - field.field.taxonomy_term.fungi_type.microscope_photos
+    - field.field.taxonomy_term.fungi_type.species
+    - taxonomy.vocabulary.fungi_type
+  enforced:
+    module:
+      - farm_fungi
+      - farm_shane_fungi
+  module:
+    - image
+    - text
+id: taxonomy_term.fungi_type.default
+targetEntityType: taxonomy_term
+bundle: fungi_type
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  genus:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  microscope_photos:
+    type: image
+    weight: 3
+    region: content
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  species:
+    type: entity_reference_label
+    weight: 2
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden: {  }
