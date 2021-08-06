@@ -6,5 +6,5 @@ dependencies:
       - farm_shane_fungi
 name: Substrate types
 vid: substrate_type
-description: 'A list of substrate types.'
+description: 'What fungi benefits from this substrate formula/recipe?'
 weight: 1

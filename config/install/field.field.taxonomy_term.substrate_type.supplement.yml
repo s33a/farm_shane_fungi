@@ -4,15 +4,19 @@ dependencies:
   config:
     - field.storage.taxonomy_term.supplement
     - taxonomy.vocabulary.substrate_type
-  enforced:
-    module:
-      - farm_shane_fungi
+  module:
+    - entity_reference_validators
+third_party_settings:
+  entity_reference_validators:
+    circular_reference: false
+    circular_reference_deep: false
+    duplicate_reference: false
 id: taxonomy_term.substrate_type.supplement
 field_name: supplement
 entity_type: taxonomy_term
 bundle: substrate_type
-label: 'Supplement'
-description: 'What substrate is this a member of?'
+label: Supplements
+description: ''
 required: false
 translatable: false
 default_value: {  }
@@ -21,7 +25,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      supplement: supplement
+      substrate_type: substrate_type
     sort:
       field: name
       direction: asc

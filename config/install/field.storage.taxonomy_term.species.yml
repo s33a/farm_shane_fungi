@@ -3,8 +3,8 @@ status: true
 dependencies:
   module:
     - taxonomy
-id: taxonomy_term.supplement
-field_name: supplement
+id: taxonomy_term.species
+field_name: species
 entity_type: taxonomy_term
 type: entity_reference
 settings:

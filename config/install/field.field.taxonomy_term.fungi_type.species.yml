@@ -2,8 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.taxonomy_term.raw_material
-    - taxonomy.vocabulary.substrate_type
+    - field.storage.taxonomy_term.species
+    - taxonomy.vocabulary.fungi_type
   module:
     - entity_reference_validators
 third_party_settings:
@@ -11,11 +11,11 @@ third_party_settings:
     circular_reference: false
     circular_reference_deep: false
     duplicate_reference: false
-id: taxonomy_term.substrate_type.raw_material
-field_name: raw_material
+id: taxonomy_term.fungi_type.species
+field_name: species
 entity_type: taxonomy_term
-bundle: substrate_type
-label: 'Raw materials'
+bundle: fungi_type
+label: Species
 description: ''
 required: false
 translatable: false
@@ -25,7 +25,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      substrate_type: substrate_type
+      fungi_type: fungi_type
     sort:
       field: name
       direction: asc
