@@ -7,3 +7,4 @@ dependencies:
   - farm:farm_entity
   - farm_fungi:farm_fungi
   - farm:farm_material
+  - farm:farm_quick
