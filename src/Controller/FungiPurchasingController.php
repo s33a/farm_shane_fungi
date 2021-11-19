@@ -21,9 +21,9 @@ class FungiPurchasingController extends ControllerBase {
    * @return array
    *   A simple renderable array.
    */
-  public function purchasingGeneticsPage(): array {
+  public function purchasingRawMaterialsPage(): array {
     return [
-      '#markup' => 'Hello, Purchasing Genetics',
+      '#markup' => 'Hello, Purchasing Raw Materials',
     ];
   }
 

@@ -3,23 +3,23 @@
 namespace Drupal\farm_shane_fungi\Plugin\QuickForm;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\farm_quick\QuickFormBase;
+use Drupal\farm_quick\Plugin\QuickForm\QuickFormBase;
 use Drupal\farm_quick\Traits\QuickLogTrait;
 
 /**
- * Fungi harvest quick form.
+ * Fungi genetics quick form.
  *
  * @QuickForm(
- *   id = "fungi",
- *   label = @Translation("Fungi harvest"),
- *   description = @Translation("Record when fungi are harvested."),
- *   helpText = @Translation("Use this form to record when fungi are havested."),
+ *   id = "fungi_genetics",
+ *   label = @Translation("Fungi genetics"),
+ *   description = @Translation("Record when fungi genetics are added."),
+ *   helpText = @Translation("Use this form to record when fungi genetics are added."),
  *   permissions = {
- *     "create harvest log",
+ *     "create asset log",
  *   }
  * )
  */
-abstract class Fungi extends QuickFormBase {
+abstract class FungiGenetics extends QuickFormBase {
 
   use QuickLogTrait;
 
@@ -28,7 +28,7 @@ abstract class Fungi extends QuickFormBase {
    */
   public function buildForm(array $form, FormStateInterface $form_state, string $id = NULL) {
 
-    // Fungi quantity.
+    // FungiGenetics quantity.
     $form['quantity'] = [
       '#type' => 'number',
       '#title' => $this->t('Quantity'),
@@ -45,7 +45,7 @@ abstract class Fungi extends QuickFormBase {
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
 
-    // Draft a Fungi harvest log from the user-submitted data.
+    // Draft a FungiGenetics harvest log from the user-submitted data.
     $quantity = $form_state->getValue('quantity');
     $log = [
       'name' => $this->t('Collected @count fungi(s)', ['@count' => $quantity]),
